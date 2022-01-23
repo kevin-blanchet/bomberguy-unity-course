@@ -1,0 +1,230 @@
+{
+    "name": "bomberguy-unity-course",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "a13082bd-60e1-452c-87d2-6cfdc1c3138e",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "e8428202-4a44-4eda-83c9-ca4f73cbc5dd",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Cast",
+                    "type": "Button",
+                    "id": "cc51fb9f-fa08-42aa-977c-25356faed6c1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "ZQSD",
+                    "id": "83f08aa9-1141-4516-94ee-8f0bfefac98b",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "159be014-6d95-4e6d-87f4-5dc277bdeba6",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player1",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "0c161a13-1964-420b-ac4d-3d4d31919bba",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player1",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "c631f160-8b50-421c-b6eb-61bd7b7ec56f",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player1",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "f2eae40c-0c16-4461-adce-1d6a326e554f",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player1",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "e0a84767-580f-439f-9347-04c93eda1ef5",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "ArrowKeys",
+                    "id": "053b9e6f-678d-4fbc-9b87-8d8ce0055a06",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "a68f0578-7eee-4f85-b51b-59419f4a55a9",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player2",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "9e2440bd-b540-4ed6-bc8d-f1788abe394f",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player2",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "69130191-14a9-493c-9e61-fc9fc9eb13b1",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player2",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "9bf1df95-8fc5-4dda-aff4-55b88dd88f12",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player2",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "8201116a-9958-4952-aef0-48f131557831",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player1",
+                    "action": "Cast",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "253301bf-0678-41ad-a5a3-2b447ac3f9ef",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Cast",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e9eaa117-eb95-4a4f-9cc0-5eb23f50ca43",
+                    "path": "<Keyboard>/numpad0",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player2",
+                    "action": "Cast",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Gamepad",
+            "bindingGroup": "Gamepad",
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Player1",
+            "bindingGroup": "Player1",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": true,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": true,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Player2",
+            "bindingGroup": "Player2",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
