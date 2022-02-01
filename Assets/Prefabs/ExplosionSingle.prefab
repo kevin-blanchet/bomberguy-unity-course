@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6204694761166742996}
   - component: {fileID: 2124406021358539064}
   - component: {fileID: -8652104386435688773}
+  - component: {fileID: -5867404538862621343}
   m_Layer: 7
   m_Name: ExplosionSingle
   m_TagString: Untagged
@@ -75,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e241e6ff8e18fac47afeb6f6fda5c8cb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -143,3 +144,14 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9375, y: 0.9375}
   m_EdgeRadius: 0
+--- !u!210 &-5867404538862621343
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5148903530876539770}
+  m_Enabled: 1
+  m_SortingLayerID: 340584671
+  m_SortingLayer: 2
+  m_SortingOrder: 0

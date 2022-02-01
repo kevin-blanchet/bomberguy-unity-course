@@ -1115,7 +1115,7 @@ Tilemap:
       - {fileID: 21300000, guid: e25b40af08462ba4d81035f0a0241847, type: 3}
       - {fileID: 21300000, guid: 7dd6d31c6b2fd0c4b93bada636193eb7, type: 3}
       - {fileID: 21300000, guid: 12167af1c5c9e6942b0c64ecf3da0a44, type: 3}
-      m_AnimationSpeed: 1
+      m_AnimationSpeed: 4
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -1, y: -9, z: 0}
@@ -1125,7 +1125,7 @@ Tilemap:
       - {fileID: 21300000, guid: 10cd70c62796aae4b886249eb66fc6a9, type: 3}
       - {fileID: 21300000, guid: 24c282d1d531d7c49b93f7d8f1c3c204, type: 3}
       - {fileID: 21300000, guid: 0cd4b075f835b2b47954a8c6cb2b877b, type: 3}
-      m_AnimationSpeed: 1
+      m_AnimationSpeed: 4
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   m_TileAssetArray:
@@ -1557,6 +1557,24 @@ Tilemap:
       e31: 0
       e32: 0
       e33: 1
+  - m_RefCount: 0
+    m_Data:
+      e00: 22358.969
+      e01: NaN
+      e02: 1.7660613e+24
+      e03: 0
+      e10: 2.98e-43
+      e11: NaN
+      e12: 4.5904e-41
+      e13: 0
+      e20: NaN
+      e21: 0
+      e22: 22358.938
+      e23: 0
+      e30: 0
+      e31: 7.34684e-40
+      e32: 2.98e-43
+      e33: 1
   m_TileColorArray:
   - m_RefCount: 102
     m_Data: {r: 1, g: 1, b: 1, a: 1}
@@ -1626,14 +1644,14 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0, y: 0.100000024, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
---- !u!114 &4411742486376750044
+--- !u!114 &9052831306410102909
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -26,7 +26,6 @@ public class RuneBehaviour : MonoBehaviour
 
     private void Explode()
     {
-        Debug.Log("bomb exploded");
         Instantiate(explosionPrefab, transform.position, transform.rotation);
         Destroy(gameObject);
     }
